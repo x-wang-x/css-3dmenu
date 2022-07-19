@@ -3,7 +3,7 @@ body
 {
     display: flex;
     min-height: 100vh;
-    background: #4C3A51;
+    background: #1B2430;
     justify-content: center;
     align-items: center;
 }
@@ -16,10 +16,10 @@ ul li {
     position: relative;
     list-style: none;
     width: 250px;
-    background: #E7AB79;
+    background: #D6D5A8;
     padding: 20px;
     margin: 0;
-    color: #4C3A51;
+    color: #51557E;
     z-index: var(--i);
     transition: 0.5s;
     font-family: "Sofia", sans-serif;
@@ -31,7 +31,7 @@ ul li:before{
     left: -40px;
     width: 40px;
     height: 100%;
-    background: #774360;
+    background: #51557E;
     transform-origin: right;
     transform: skewY(45deg);
     transition: 0.5s;
@@ -43,21 +43,21 @@ ul li::after{
     left: 0;
     width: 100%;
     height: 40px;
-    background: #B25068;
+    background: #816797;
     transform-origin: bottom;
     transform: skewX(45deg);
     transition: 0.5s;
     content: '';
 }
 ul li:hover::before{
-    background: #A47E3B;
+    background: #395B64;
 }
 ul li:hover::after{
-    background: #BF9742;
+    background: #A5C9CA;
 }
 ul li:hover{
     color: #61481C;
-    background: #E6B325;
+    background: #E7F6F2;
     transform: translateX(-50px);
     font-family: "Sofia", sans-serif;
 }
